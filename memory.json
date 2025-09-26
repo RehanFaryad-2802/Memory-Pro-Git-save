@@ -29,8 +29,8 @@
     "type": "image",
     "versions": [
       {
-        "text": "Screenshot from The Moment Kafka Hibino Gains His Aura 😱⚡ - YouTube",
-        "date": "2025-09-26T14:35:10.903Z"
+        "date": "2025-09-26T14:35:10.903Z",
+        "text": "Screenshot from The Moment Kafka Hibino Gains His Aura 😱⚡ - YouTube"
       },
       {
         "date": "2025-09-26T14:34:53.406Z",
@@ -83,11 +83,17 @@
     "id": "1758897248162856",
     "pinned": false,
     "tags": [
-      "Facebook"
+      "Facebook",
+      "Anime"
     ],
     "text": "Screenshot from Facebook",
     "type": "image",
-    "versions": [],
+    "versions": [
+      {
+        "text": "Screenshot from Facebook",
+        "date": "2025-09-26T14:35:30.211Z"
+      }
+    ],
     "meta": {
       "favicon": "https://www.google.com/s2/favicons?domain=www.facebook.com",
       "imageStored": false,
