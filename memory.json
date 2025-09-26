@@ -47,23 +47,6 @@
     }
   },
   {
-    "color": "hsl(160 60% 52%)",
-    "created": "2025-08-26T02:01:52.243Z",
-    "id": "1756173712243953",
-    "pinned": true,
-    "tags": [
-      "Content"
-    ],
-    "text": "Screenshot from Memory-Pro-Git/memory.json at main · RehanFaryad-2802/Memory-Pro-Git",
-    "type": "image",
-    "versions": [],
-    "meta": {
-      "favicon": "https://www.google.com/s2/favicons?domain=github.com",
-      "imageStored": false,
-      "sourceUrl": "https://github.com/RehanFaryad-2802/Memory-Pro-Git/blob/main/memory.json"
-    }
-  },
-  {
     "color": "hsl(30 72% 50%)",
     "created": "2025-09-12T15:14:30.935Z",
     "id": "1757690070935236",
