@@ -1,19 +1,5 @@
 [
   {
-    "id": "1758939204622175",
-    "text": "Also fix the clearAllBtn event listener (line 780):\njavascript\n/* replace the existing clearAllBtn event listener */\nclearAllBtn.addEventListener(\"click\", () => {\n  // Show gentle confirmation instead of alert\n  if (clearAllBtn.classList.contains('confirm-mode')) {\n    clearAllWithUndo();\n    clearAllBtn.classList.remove('confirm-mode');\n    clearAllBtn.innerHTML = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trash-icon lucide-trash\"><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6\"/><path d=\"M3 6h18\"/><path d=\"M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/></svg>';\n    clearAllBtn.style.background = '';\n  } else {\n    // First click - show confirmation\n    clearAllBtn.classList.add('confirm-mode');\n    clearAllBtn.innerHTML = '❓ Clear All?';\n    clearAllBtn.style.background = '#ff6b6b';\n    \n    // Reset after 3 seconds\n    setTimeout(() => {\n      clearAllBtn.classList.remove('confirm-mode');\n      clearAllBtn.innerHTML = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trash-icon lucide-trash\"><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6\"/><path d=\"M3 6h18\"/><path d=\"M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/></svg>';\n      clearAllBtn.style.background = '';\n    }, 3000);\n  }\n});\nSummary of fixes:\nRemoved duplicate showUndoBar function - you had two versions\n\nFixed the timer - now properly shows 7-second countdown in the border\n\nShow item title instead of generic \"Item deleted\" message\n\nFixed the clearAll button - proper SVG icon restoration\n\nProper queue system - multiple deletes won't conflict\n\nNow when you delete an item, it will show:\n\n\"Deleted: [item title]\" - showing the actual content that was deleted\n\nUndo button - to restore the item\n\n7-second border timer - visual countdown\n\nMultiple undo bars stack - if you delete multiple items quickly\n\nThe undo system will work perfectly without conflicts! 🎯",
-    "created": "2025-09-27T02:13:24.622Z",
-    "color": "hsl(65 66% 52%)",
-    "pinned": false,
-    "tags": [
-      "untitled",
-      "Code"
-    ],
-    "type": "text",
-    "meta": {},
-    "versions": []
-  },
-  {
     "color": "hsl(53 67% 52%)",
     "created": "2025-09-26T14:34:08.162Z",
     "id": "1758897248162856",
