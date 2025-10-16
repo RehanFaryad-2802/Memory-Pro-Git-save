@@ -68,23 +68,6 @@
     }
   },
   {
-    "color": "hsl(28 74% 51%)",
-    "created": "2025-10-16T15:10:55.248Z",
-    "id": "176062745524875",
-    "pinned": false,
-    "tags": [
-      "Herowarscentral"
-    ],
-    "text": "Guus Mysterious Island 2025",
-    "type": "image",
-    "versions": [],
-    "meta": {
-      "favicon": "https://www.google.com/s2/favicons?domain=www.herowarscentral.com",
-      "imageStored": false,
-      "sourceUrl": "https://www.herowarscentral.com/post/guus-mysterious-island-2025"
-    }
-  },
-  {
     "color": "hsl(227 72% 54%)",
     "created": "2025-10-16T15:35:17.597Z",
     "id": "176062891759755",
@@ -167,6 +150,23 @@
       "favicon": "https://www.google.com/s2/favicons?domain=www.herowarscentral.com",
       "imageStored": false,
       "sourceUrl": "https://www.herowarscentral.com/post/october-mysterious-island-2025"
+    }
+  },
+  {
+    "color": "hsl(353 61% 46%)",
+    "created": "2025-10-16T15:36:28.020Z",
+    "id": "1760628988020643",
+    "pinned": false,
+    "tags": [
+      "H-w"
+    ],
+    "text": "[Hero Wars Guide]Mysterious Island – July 2025｜Insights with HeroWars Login",
+    "type": "image",
+    "versions": [],
+    "meta": {
+      "favicon": "https://www.google.com/s2/favicons?domain=h-w.fun",
+      "imageStored": false,
+      "sourceUrl": "https://h-w.fun/en/mysterious-island-12/"
     }
   }
 ]
